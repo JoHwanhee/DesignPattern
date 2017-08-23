@@ -4,3 +4,4 @@
 
 # List
 - Builder Pattern
+- Strategy Pattern
