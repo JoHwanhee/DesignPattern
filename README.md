@@ -1,6 +1,6 @@
 # DesignPattern
 
-- Design partterns in C# which i learned.
+- This is the repo of design partterns which i learned in C#.
 
 # List
 - Builder Pattern
