@@ -6,4 +6,4 @@
 - Builder Pattern
 - Strategy Pattern
 - Command Pattern
-What is the difference between Strategy and Command : [https://stackoverflow.com/questions/4834979/difference-between-strategy-pattern-and-command-pattern]
+- What is the difference between Strategy and Command : [https://stackoverflow.com/questions/4834979/difference-between-strategy-pattern-and-command-pattern]
