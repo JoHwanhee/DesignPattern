@@ -7,5 +7,6 @@
             Data = data;
         }
         public T Data { get; set; }
+
     }
 }

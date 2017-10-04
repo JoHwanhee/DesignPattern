@@ -22,42 +22,42 @@ namespace CompositePattern
             File<Movie> 괜찮아사랑이야 = new File<Movie>("괜찮아사랑이야", new Movie());
 
 
-            root.AddComponent(user01);
-                user01.AddComponent(music);
-                    music.AddComponent(사랑안해);
-                    music.AddComponent(사랑비);
-
-            root.AddComponent(user02);
-                user02.AddComponent(movie);
-                    movie.AddComponent(영화는영화다);
-                    movie.AddComponent(괜찮아사랑이야);
-
-                user02.RemoveComponent(movie);
-
-            Prt(root);
-        }
-
-        public static void Prt(Component rootComponent)
-        {
-            if (rootComponent == null)
+            if (root.AddComponent(user01))
             {
-                return;
-            }
-
-            Console.WriteLine(rootComponent.Name);
-
-            if (rootComponent is Folder folder)
-            {
-                foreach (Component component in folder.Children)
+                if (user01.AddComponent(music))
                 {
-                    Prt(component);
+                    if (music.AddComponent(사랑안해))
+                    {
+                        
+                    }
+
+                    if (music.AddComponent(사랑비))
+                    {
+                        
+                    }
                 }
             }
 
-            if (rootComponent is File<object> file)
+
+
+
+            if (root.AddComponent(user02))
             {
-                Console.WriteLine(file.Name);
+                if (user02.AddComponent(movie))
+                {
+                    if (movie.AddComponent(영화는영화다))
+                    {
+
+                    }
+                    if (movie.AddComponent(괜찮아사랑이야))
+                    {
+
+                    }
+                }
+
             }
+          
+            root.Print();
         }
     }
 }

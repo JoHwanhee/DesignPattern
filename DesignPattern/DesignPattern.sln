@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{328A82A1-125F-41E1-B22E-004CAE67A791}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{B6AA817D-D577-48E9-9C38-E31165437CAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{054C5797-0F30-4FBF-9971-3C5F0C201C14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern\CompositePattern.csproj", "{716B617E-85BD-4BFB-9690-134B03FB248A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{054C5797-0F30-4FBF-9971-3C5F0C201C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{054C5797-0F30-4FBF-9971-3C5F0C201C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{054C5797-0F30-4FBF-9971-3C5F0C201C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716B617E-85BD-4BFB-9690-134B03FB248A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716B617E-85BD-4BFB-9690-134B03FB248A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716B617E-85BD-4BFB-9690-134B03FB248A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716B617E-85BD-4BFB-9690-134B03FB248A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD7F0C17-2A76-4480-8280-BD677347BDFF}
 	EndGlobalSection
 EndGlobal

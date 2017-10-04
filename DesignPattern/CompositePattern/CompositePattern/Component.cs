@@ -1,4 +1,6 @@
-﻿namespace CompositePattern
+﻿using System;
+
+namespace CompositePattern
 {
     public abstract class Component
     {
@@ -7,6 +9,11 @@
         protected Component(string name)
         {
             Name = name;
+        }
+
+        public virtual void Print()
+        {
+            Console.WriteLine(Name);
         }
     }
 }

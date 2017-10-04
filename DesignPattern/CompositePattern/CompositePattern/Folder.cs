@@ -29,5 +29,14 @@ namespace CompositePattern
 
             return Children?.Remove(component) ?? false;
         }
+
+        public override void Print()
+        {
+            base.Print();
+            foreach (Component child in Children)
+            {
+                child.Print();
+            }
+        }
     }
 }
