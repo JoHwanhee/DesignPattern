@@ -13,4 +13,5 @@
 - Strategy Pattern
 - Command Pattern
 
+# Article
 - What is the difference between Strategy and Command : [https://stackoverflow.com/questions/4834979/difference-between-strategy-pattern-and-command-pattern]
