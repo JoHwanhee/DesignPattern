@@ -8,9 +8,9 @@
 # Structural
 - Composite Pattern
 
-
 # Behavioral
 - Strategy Pattern
+- State Pattern
 - Command Pattern
 
 # Article
