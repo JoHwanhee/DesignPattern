@@ -7,6 +7,7 @@
 
 # Structural
 - Composite Pattern
+- Bridge Pattern
 
 # Behavioral
 - Strategy Pattern
